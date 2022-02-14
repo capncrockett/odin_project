@@ -1,0 +1,223 @@
+* {
+    font-size: large;
+}
+
+/* ONE */
+/* p,
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+.block,
+li {
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+} */
+
+/* TWO */
+/* p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+    border: 2px solid blue;
+}
+
+    TRY TOGGLING display types
+
+ul {
+    display: inline-flex;
+    display: flex; 
+    list-style: none;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+    display: block;
+} */
+
+/* BOX MODELS */
+/* .box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternate {
+    box-sizing: border-box;
+    width: 390px;
+    height: 240px;
+}
+
+.content {
+    box-sizing: content-box;
+    width: 300px;
+    height: 150px;
+    padding: 40px;
+
+} */
+
+/* MARGINS */
+/* .container {
+    border: 2px solid saddlebrown;
+
+}
+
+.box {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 1em;
+    border: 2px solid orange;
+} */
+
+/* MARGINS: COLLAPSING */
+/* .container {
+    border: 2px solid forestgreen;
+}
+
+p {
+    border: 2px solid purple;
+}
+
+.one {
+    margin-bottom: 50px;
+}
+
+.two {
+    margin-top: 30px;
+} */
+
+/* BORDERS */
+/* .container {
+    border-top: 50px dotted green;
+    border-right: 250px solid black;
+    border-bottom: 750px double rgb(23, 45, 145);
+}
+
+.box {
+    border: 30px solid #333333;
+    border-top-style: dotted;
+    border-right-width: 40px;
+    border-bottom-color: hotpink;
+} */
+
+/* PADDING */
+/* .box {
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 4em;
+    border: 2px dotted green;
+}
+
+.container {
+    padding: 20px;
+    border: 2px dashed blue;
+} */
+
+/* BOX MODEL AND INLINE BOXES */
+/* span {
+    margin: 20px;
+    padding: 20px;
+    width: 80px;
+    height: 50px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: inline;
+    display: inline-block;
+    display: block;
+}
+
+nav {
+    border: 2px dashed green;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    border: 2px solid blue;
+}
+
+.links-list a {
+    background-color: rgb(179, 57, 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: .5em;
+}
+
+.links-list a:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+} */
+
+/* CSS TRICKS MARGIN */
+/* .container {
+    border: black 2px solid;
+}
+.container h2 {
+    border: blue dashed;
+    margin: 0 0 20px 0;
+} */
+
+/* .module {
+    padding: 1rem;
+    background: white;
+}
+
+.module h2 {
+    background: #90a4ae;
+    margin: -1rem -1rem 1rem -1rem;
+    margin: -1rem;
+    padding: 1rem;
+}
+
+.module :last-child {
+    margin-bottom: 0;
+}
+
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+} */
+
+* {
+    border: 1px dotted red;
+}
+
+body {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+p {
+    border: 1px dashed green;
+    padding: 1rem;
+}
+
+p:first-child {
+    margin-bottom: -1rem;
+    border: 5px solid blue;
+}

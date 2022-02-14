@@ -1,0 +1,58 @@
+* {
+    border: 1px dashed green;
+    font-size: xx-large;
+}
+
+/* div {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+}
+
+.introduction {
+    background-color: #548CA8;
+}
+
+.main-content {
+    background-color: #476072;
+}
+
+.contact-us {
+    background-color: #334257;
+}
+
+.highlight {
+    background-color: yellow;
+} */
+
+/* NORMAL FLOW  */
+/* body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+p {
+    background: rgba(255, 84, 104, 0.3);
+    border: 2px solid rgb(255, 84, 104);
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    background: white;
+    border: 1px solid black;
+} */
+
+
+/* INLINE VS INLINE-BLOCK */
+span.box {
+    display: inline;
+    display: inline-block;
+    display: block;
+    background-color: lightgreen;
+    /* the default for span */
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+}
