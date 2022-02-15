@@ -1,0 +1,22 @@
+.box {
+    font-size: 24px;
+    background: lightgreen;
+    border: 2px solid salmon;
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+}
+
+/* .push {
+    margin-left: auto;
+} */
+
+.box>* {
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px dashed blue;
+    border-radius: 5px;
+    flex: 1;
+}
