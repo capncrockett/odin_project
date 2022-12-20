@@ -9,58 +9,18 @@
     <button>Start Machine</button>
     <p>The machine is stopped.</p>
     <script>
-      // Your JavaScript goes here!
-      const btn = document.querySelector("button");
-      const txt = document.querySelector("p");
+      let message;
+      let login = prompt("Who's there?", "");
 
-      btn.addEventListener("click", updateBtn);
+      login == "Employee"
+        ? (message = "Hello")
+        : login == "Director"
+        ? (message = "Greetings")
+        : login == ""
+        ? (message = "No login")
+        : (message = "");
 
-      function updateBtn() {
-        if (btn.textContent === "Start Machine") {
-          btn.textContent = "Stop Machine";
-          txt.textContent = "The machine has started!";
-        } else {
-          btn.textContent = "Start Machine";
-          txt.textContent = "The machine has stopped.";
-        }
-      }
-
-      // let userResponse = prompt("True name of JavaScript?", "");
-
-      // alert(
-      //   userResponse == "ECMAScript" ? "correct" : "It's actually ECMAScript"
-      // );
-
-      // Using if..else, write the code which gets a number via prompt and then shows in alert:
-
-      // 1, if the value is greater than zero,
-      // -1, if less than zero,
-      // 0, if equals zero.
-      // In this task we assume that the input is always a number.
-
-      // let userResponse = prompt("gimme a number", "");
-
-      // alert(userResponse > 0 ? "1" : userResponse < 0 ? "-1" : "0");
-
-      // let result;
-
-      // if (a + b < 4) {
-      //   result = "Below";
-      // } else {
-      //   result = "Over";
-      // }
-
-      let a = prompt("gimme a number");
-      console.log(a);
-      console.log(typeof a);
-      let b = prompt("gimme a second number");
-      console.log(typeof b);
-      // let a = 2;
-      // let b = 1;
-
-      let result = a + b < 4 ? "Below" : "over";
-
-      console.log(result);
+      alert(message);
     </script>
   </body>
 </html>
